@@ -13,16 +13,22 @@ class Users extends CI_Controller {
 		$this->load->library('grocery_CRUD');
 	}
 	
-	public function users_management()
+	public function index()
 	{
 			$crud = new grocery_CRUD();
 
 			$crud->set_table('users');
 			$crud->columns('name','surname','image_path');
 
-			$crud->display_as('name','Name')
-			->display_as('surname','Last Name')
-			->display_as('image_path','İmage');
+			$crud->set_theme('bootstrap');
+
+			try {
+				$crud->display_as('name','Name')
+				->display_as('surname','Last Name')
+				->display_as('image_path','İmage');
+			} catch (Exception $th) {
+				//throw $th;
+			}
 
 
 			$crud->set_subject('Üyeler');
