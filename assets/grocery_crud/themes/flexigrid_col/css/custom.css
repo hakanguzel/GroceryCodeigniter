@@ -1,0 +1,54 @@
+/*quickAdd*/
+.fancybox-container.fbQuickAdd .fancybox-slide--iframe .fancybox-content {
+  outline: 8px solid #e4e4e4;
+}
+
+.quickAddBtn {
+  font-size: 16px;
+}
+
+.form-vertical > #main-table-box > .row .form-display-as-box.control-label,
+.form-vertical > #main-table-box > .row .form-input-box {
+  display: block;
+  width: auto;
+  float: none;
+}
+
+.form-vertical > #main-table-box > .row .form-display-as-box.control-label > hr,
+.form-vertical > #main-table-box > .row .form-input-box > hr {
+  border-bottom: 2px solid #1b4488;
+  margin: 0 auto;
+  display: table;
+  width: 50%;
+}
+
+.form-vertical > #main-table-box > .row .form-display-as-box.control-label#status_display_as_box,
+.form-vertical > #main-table-box > .row .form-input-box#status_display_as_box {
+  float: left;
+}
+
+.form-vertical > #main-table-box > .row .form-display-as-box.control-label#status_input_box .pretty-radio-buttons .radio,
+.form-vertical > #main-table-box > .row .form-input-box#status_input_box .pretty-radio-buttons .radio {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px 0 0px;
+}
+
+.form-vertical .rowt-readonly {
+  text-align: center;
+}
+
+.form-vertical .form-display-as-box > label {
+  font-size: 16px;
+}
+
+.form-vertical .rowt-readonly > .form-display-as-box > label {
+  font-size: 20px;
+}
+
+.form-vertical .readonly_label {
+  padding-top: 0;
+  height: 3px;
+  background-color: #1b4488;
+}
+/*# sourceMappingURL=custom.css.map */
